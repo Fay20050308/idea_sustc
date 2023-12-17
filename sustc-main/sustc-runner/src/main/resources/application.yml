@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sustc  # change this to your own jdbc url
+    username: postgres  # change this to your own username (avoid using a superuser)
+    password: cyf20050308  # change this to your own password
+
+---
+
+benchmark:
+  data-path: D:\智性恋的天堂^-^\数据库原理\project2\sustc-main (1)\sustc-main\sustc-runner\data\import
+  student-mode: true
